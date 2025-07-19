@@ -6,19 +6,30 @@
 
     <groupId>org.bd</groupId>
     <artifactId>java-algorithms</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Bharadwajdevalraju/java-ds</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>6.0.0-M1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.bd</groupId>
+            <artifactId>java-ds</artifactId>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 </project>
